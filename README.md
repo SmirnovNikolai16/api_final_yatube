@@ -9,9 +9,9 @@ ____
 ## Используемые технологииё
 ____
 
-Django REST Framework
-Simple JWT - работа с JWT-токеном
-git
+* Django REST Framework
+* Simple JWT - работа с JWT-токеном
+* git
 
 ## Как запустить проект:
 ____
