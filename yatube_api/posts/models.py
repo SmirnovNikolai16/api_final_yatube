@@ -64,3 +64,5 @@ class Follow(models.Model):
 
     class Meta():
         ordering = ['-subscription_date']
+        models.UniqueConstraint(fields=['user', 'following'],
+                                name='unique_followings')
